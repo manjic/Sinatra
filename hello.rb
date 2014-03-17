@@ -10,5 +10,7 @@ get'/hello' do
 	erb :index
 end
 
-
+get '/berry' do
+  erb :berry
+end
 
